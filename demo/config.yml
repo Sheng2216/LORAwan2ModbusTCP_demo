@@ -1,0 +1,21 @@
+titile="loRaWAN to ModBusTCP configuration file"
+
+[ModBusTCP]
+IP="10.2.13.25/24"
+port=502
+
+[MQTT_broker]
+host="52.80.207.181"
+port=1883
+username="test"
+password="123456"
+
+[MQTT_topic]
+uplink="application/+/device/+/event/up"
+
+[DATABASE]
+database_path = "databases/lorawan_sensor_data.db"
+
+[General]
+
+
